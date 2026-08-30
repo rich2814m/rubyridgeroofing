@@ -1,0 +1,24 @@
+RUBY RIDGE ROOFING & FLOORING — READY TO UPLOAD
+
+This folder is the complete website.
+
+HOSTINGER:
+1. Log in to Hostinger hPanel.
+2. Open Websites > Manage > File Manager.
+3. Open the public_html folder for your domain.
+4. Upload the CONTENTS of this folder into public_html.
+5. Make sure index.html is directly inside public_html (not inside another nested folder).
+6. Visit your domain in Safari/Chrome.
+
+Main pages:
+- index.html — Home
+- roofing.html — Roofing
+- services.html — Painting & Flooring
+- experience.html — Combined Experience
+- hire.html — Hire Us
+- estimates.html — Estimates
+- about.html — About
+- contact.html — Contact
+- credits.html — Photo Credits
+
+The Ruby Ridge advertisement image is stored in assets/ruby-ridge-ad.png.
