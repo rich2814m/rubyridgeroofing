@@ -29,7 +29,8 @@ document.querySelectorAll('form[data-demo]').forEach((form) => {
 
 const estimator = document.querySelector('#roof-estimator');
 
-if (estimator) {
+if (estimator && !estimator.dataset.estimatorReady) {
+  estimator.dataset.estimatorReady = 'true';
   const materialRates = {
     asphalt: { label: 'architectural asphalt shingles', low: 475, high: 725 },
     corrugated: { label: 'corrugated metal roofing', low: 700, high: 1100 },
